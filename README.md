@@ -15,6 +15,7 @@ Apprendre à gérer l’état **sans framework**, en JavaScript “vanilla”, a
 
 <img width="754" height="322" alt="image" src="https://github.com/user-attachments/assets/f39398a5-741f-4863-b467-7123feb8dd12" />
 
+* Le lien du projet : https://argoflash.github.io/vanilla-js-state-store/
 ---
 
 ## 🧠 Ce que tu vas apprendre
