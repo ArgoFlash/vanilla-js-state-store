@@ -1,4 +1,4 @@
-# Vanilla useState —> Démo
+# JS Vanilla useState —> Démo
 
 Apprendre à gérer l’état **sans framework**, en JavaScript “vanilla”, avec :
 
