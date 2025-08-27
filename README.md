@@ -60,25 +60,6 @@ Apprendre à gérer l’état **sans framework**, en JavaScript “vanilla”, a
 2. Installe l’extension **Live Server**
 3. Clic droit sur `index.html` → **Open with Live Server**
 
-### Option 2 — Node
-
-```bash
-# depuis la racine du projet
-npx http-server -c-1 .
-# ou
-npx serve .
-```
-
-### Option 3 — Python
-
-```bash
-python3 -m http.server 5173
-```
-
-Ensuite, visite l’URL affichée (ex. `http://localhost:8080`).
-
----
-
 ## 🌐 Déployer sur GitHub Pages
 
 1. Crée un repo et pousse ce projet.
