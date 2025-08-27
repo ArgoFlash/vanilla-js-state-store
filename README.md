@@ -54,7 +54,7 @@ Apprendre à gérer l’état **sans framework**, en JavaScript “vanilla”, a
 
 > Les modules ES ne se chargent pas en `file://`. Servez le dossier via un petit serveur HTTP.
 
-### Option 1 — VS Code (recommandé)
+### Lancer le projet — VS Code
 
 1. Ouvre le dossier dans VS Code
 2. Installe l’extension **Live Server**
