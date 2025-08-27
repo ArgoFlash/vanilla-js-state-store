@@ -1,0 +1,38 @@
+<!doctype html> <!-- Déclare le document comme HTML5 (obligatoire pour un rendu moderne et prévisible) -->
+<html lang="fr" data-theme="light">
+  <!--
+    lang="fr"  : indique la langue principale (utile pour l’accessibilité et le SEO).
+    data-theme : attribut custom que l’app modifie en "light" | "dark" (le CSS lit [data-theme="…"] pour changer les couleurs).
+  -->
+  <head>
+    <meta charset="utf-8" /> <!-- Encodage en UTF-8 (accents, emojis, etc.) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
+      Viewport responsive : dit aux mobiles d’utiliser la largeur de l’écran et un zoom initial 1.
+      Sans ça, l’UI serait minuscule sur smartphone.
+    -->
+    <title>Vanilla useState —> Démo</title> <!-- Titre de l’onglet/navigateur -->
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <!-- Feuille de styles principale (mise en page, thèmes, composants visuels) -->
+  </head>
+
+  <body>
+    <!--
+      Point de montage (root) de l’application.
+      Le JavaScript construit tout l’UI (Header, Counter, Todo) et l’insère DYNAMIQUEMENT ici :
+          const app = document.getElementById("app");
+          app.appendChild(container);
+      Avantage : tu sépares squelette HTML et rendu JS, et tu peux re-monter l’app facilement.
+    -->
+    <div id="app"></div>
+
+    <!--
+      Script ES Module : active import/export natifs du navigateur.
+      - Permet : import { Header } from "./src/components/Header.js"
+      - Scope isolé (pas de variables globales qui fuient)
+      - Exécution différée par défaut (comme defer)
+      ⚠️ Servez via HTTP (Live Server) pour éviter les blocages d’import en file://
+    -->
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
